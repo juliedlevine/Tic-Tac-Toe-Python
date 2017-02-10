@@ -29,11 +29,11 @@ while play_count > 0:
         if (square_1 == "x" and square_2 == "x" and square_3 == "x") or (square_4 == "x" and square_5 == "x" and square_6 == "x") or (square_7 == "x" and square_8 == "x" and square_9 == "x") or (square_1 == "x" and square_4 == "x" and square_7 == "x") or (square_3 == "x" and square_6 == "x" and square_9 == "x") or (square_1 == "x" and square_5 == "x" and square_9 == "x") or (square_3 == "x" and square_5 == "x" and square_7 == "x"):
             print "Player 1 wins!"
             global play_count
-            play_count = 0
+            play_count = -1
         if (square_1 == "o" and square_2 == "o" and square_3 == "o") or (square_4 == "o" and square_5 == "o" and square_6 == "o") or (square_7 == "o" and square_8 == "o" and square_9 == "o") or (square_1 == "o" and square_4 == "o" and square_7 == "o") or (square_3 == "o" and square_6 == "o" and square_9 == "o") or (square_1 == "o" and square_5 == "o" and square_9 == "o") or (square_3 == "o" and square_5 == "o" and square_7 == "o"):
             print "Player 2 wins!"
             global play_count
-            play_count = 0
+            play_count = -1
 
     # If play_count is even, it's player 1's turn
     if play_count %2 != 0:

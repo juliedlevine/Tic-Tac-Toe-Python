@@ -42,7 +42,7 @@ while play_count > 0:
         # If player 2 enters a non-number, ask them to try again
         except ValueError:
             player_1 = int(raw_input("That's not a number, enter a number: "))
-        # Loop through each number option, if it matches the square, change the square to an x
+        # Loop through each number option, if it matches the guess, change the square to an x
         for i in range(1, 10):
             if player_1 == 1:
                 square_1 = "x"

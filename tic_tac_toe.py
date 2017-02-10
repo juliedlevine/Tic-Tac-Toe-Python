@@ -83,7 +83,7 @@ while play_count > 0:
         # If player 2 enters a non-number, ask them to try again
         except ValueError:
             player_2 = int(raw_input("That's not a number, enter a number: "))
-        # Loop through each number option, if it matches the square, change the square to an o
+        # Loop through each number square, if it matches the square, change the square to an o
         for i in range(1, 10):
             if player_2 == 1:
                 square_1 = "o"
